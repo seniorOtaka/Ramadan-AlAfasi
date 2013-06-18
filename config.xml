@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <widget xmlns="http://www.w3.org/ns/widgets" height="200" id="http://www.victorulink.com/Ramadan-AlAfasi" version="1.0.0" viewmodes="windowed fullscreen" width="200">
+    
+    <name short="Al Afasi">Al Afasi</name>    
+
+    <description>
+       Al Arafi Azkar and Doaa mobile app.
+    </description>
+    
+    <!-- Note: Author href MUST BE Url encoded 
+        @see http://en.wikipedia.org/wiki/Percent-encoding -->    
+    <author email="maboelmagd@victorylink.com" href="http://www.victorylink.com">
+        Mohamed Abo Elmagd
+    </author>
+    
+    <icon src="icon.png"/>
+
+    <content src="index.html"/>
+    
+    <license>
+	   Copyright Victory , 2013.
+    </license>
+    
+   	<feature name="nokia://s40.nokia.com/SAWRT/2.3" required="true" />
+   	<preference name="applicationName" value="AlAfasi"></preference>
+   	<preference name="userName" value="" readonly="true"></preference>
+   	<preference name="password" value=""></preference>
+   	</widget>
