@@ -17,7 +17,7 @@
     
 </head>
 
-<body>
+<body onload="userAutoLogin.init();">
 <!-- splash screen -->
 <div id="splashPage" class="ui-hide">
  			
@@ -25,36 +25,36 @@
     <div class="ui-content">
         <!-- header -->
         <div class="ui-header">
-             <div class="ui-title inline"><h2>العفاسى</h2></div><div class="refresh-icon inline"><a onclick="refreshPageContent();"><img alt="icon" src="s40-theme/images/refresh_40x40.png"/></a></div>
+             <div class="headerTitle"><h2>العفاسى</h2></div>
         </div>
         
         <!-- login page -->
-		<div id="loginPage" class="ui-content">
+		<div id="loginPage" class="ui-hide">
 		<!-- label-with-text-field -->
 <div class="ui-fieldset_S40labeledtextfield">
-  <div class="ui-legend_S40labeledtextfield" align="right">اسم المستخدم:</div>
-  <input type="text" name="name" class="ui-text-input_S40labeledtextfield" dir="rtl"/>
+  <div class="ui-legend_S40labeledtextfield" align="right">اسم المستخدم</div>
+  <input type="text" name="txtUserName" id="txtUserName" class="ui-text-input_S40labeledtextfield" dir="rtl"/>
 </div>
 <!-- label-with-text-field -->
 <div class="ui-fieldset_S40labeledtextfield">
-  <div class="ui-legend_S40labeledtextfield" align="right">كلمة السر:</div>
-  <input type="text" name="name" class="ui-text-input_S40labeledtextfield" dir="rtl"/>
+  <div class="ui-legend_S40labeledtextfield" align="right">كلمة السر</div>
+  <input type="password" name="txtPassword" id="txtPassword" class="ui-text-input_S40labeledtextfield" dir="rtl"/>
 </div >
 <div align="center">
-<button name="btnRegister" class="ui-button_S40button" onclick="Register();">تسجيل</button>
+<button name="btnRegister" class="ui-button_S40button" onclick="registerXmlDataSource.init();">تسجيل</button>
 </div>
 		</div>
 		
 		<!-- Categories page -->
-		<div id="categoriesPage" class="ui-content">
+		<div id="categoriesPage" class="ui-hide">
 		</div>
 		
 		<!-- subCategories page -->
-		<div id="subCategoriesPage" class="ui-content">
+		<div id="subCategoriesPage" class="ui-hide">
 		</div>
 		
 		<!-- items page -->
-		<div id="itemsPage" class="ui-content">
+		<div id="itemsPage" class="ui-hide">
 		</div>
     </div>    
 </body>

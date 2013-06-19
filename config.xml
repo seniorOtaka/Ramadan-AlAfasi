@@ -18,11 +18,12 @@
     <content src="index.html"/>
     
     <license>
-	   Copyright Victory , 2013.
+	   Copyright Victory link, 2013.
     </license>
     
    	<feature name="nokia://s40.nokia.com/SAWRT/2.3" required="true" />
-   	<preference name="applicationName" value="AlAfasi"></preference>
-   	<preference name="userName" value="" readonly="true"></preference>
-   	<preference name="password" value=""></preference>
+   	<preference name="ApplicationName" value="AlAfasi" readonly="true"></preference>
+   	<preference name="ServiceUrl" value="http://192.168.3.45:8090/AdMainService.svc/" readonly="true"></preference>
+   	<preference name="UserName" value="" ></preference>
+   	<preference name="Password" value=""></preference>
    	</widget>
